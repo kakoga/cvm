@@ -59,7 +59,7 @@
 						</div>
 					<div class="col-1-4">
 						<label class="fsLabelVertical fsLabel" for="w-phone">Work Phone</label>
-						<input class="fsFieldRow" type="tel" name="work-phone"id ="work-phone">
+						<input class="fsFieldRow" type="tel" name="work-phone" id ="work-phone">
 					</div>
 					<div class="col-1-4">
 						<label class="fsLabelVertical fsLabel" for="phone-ext">Ext</label>
@@ -68,20 +68,20 @@
 				</div>
 				<div class="col-full">
 					<label class="fsLabelVertical fsLabel" for="email">Email</label>
-					<input class="fsFieldRow" type="email" name="email" id="applicant-email" class="email">
+					<input class="fsFieldRow email" type="email" name="email" id="applicant-email">
 				</div>
 				<div class="z-row">
 					<div class="col-1-2">
-						<label  class="fsLabelVertical fsLabel"for="years-at-address">How long at this address</label>
-						<input class="fsFieldRow" type="text" maxlength="3" name="years-at-this-address"id="years-at-this-address">
+						<label  class="fsLabelVertical fsLabel" for="years-at-address">How long at this address</label>
+						<input class="fsFieldRow" type="text" maxlength="3" name="years-at-this-address" id="years-at-this-address">
 					</div>
 					<div class="col-1-2">
 						<div class="radio-btn">
 							<label class="radio-label fsOptionLabel horizontal" for="rent" >Rent</label>
-							<input class="fsFieldRow" type="radio" name="rent-or-own" id="rent" class="radio-opt">
+							<input class="fsFieldRow radio-opt" type="radio" name="rent-or-own" id="rent">
 
 							<label class="radio-label fsOptionLabel horizontal" for="own" >Own</label>
-							<input class="fsFieldRow" type="radio" name="rent-or-own" id="own" class="radio-opt">
+							<input class="fsFieldRow radio-opt" type="radio" name="rent-or-own" id="own">
 						</div>
 					</div>
 				</div>
@@ -89,7 +89,7 @@
 				<div class="z-row">
 					<div class="col-1-3">
 						<label class="fsLabelVertical fsLabel" for="rent-or-mortgage-amount">Mo. Rent or Mortgage</label>
-						<input class="fsFieldRow" type="text" name="rent-or-mortgage" id="rent-or-mortgage" placeholder="$"  class="dollar">
+						<input class="fsFieldRow dollar" type="text" name="rent-or-mortgage" id="rent-or-mortgage" placeholder="$">
 					</div>
 					<div class="col-1-3">
 						<label class="fsLabelVertical fsLabel" for="landlord-or-lender-name">Name of Landlord or Lender</label>
@@ -235,7 +235,7 @@
 					</div>
 					<div class="col-1-4">
 						<label class="fsLabelVertical fsLabel" for="co-applicant-w-phone">Work Phone</label>
-						<input class="fsFieldRow" type="tel" name="co-applicant-work-phone"id ="co-applicant-work-phone">
+						<input class="fsFieldRow" type="tel" name="co-applicant-work-phone" id ="co-applicant-work-phone">
 					</div>
 					<div class="col-1-4">
 						<label class="fsLabelVertical fsLabel" for="co-applicant-phone-ext">Ext</label>
@@ -249,16 +249,16 @@
 				<div class="z-row">
 					<div class="col-1-2">
 						<label class="fsLabelVertical fsLabel" for="co-applicant-years-at-address">How long at this address</label>
-						<input class="fsFieldRow" type="text" maxlength="3" name="co-applicant-years-at-this-address"id="co-applicant-years-at-this-address">
+						<input class="fsFieldRow" type="text" maxlength="3" name="co-applicant-years-at-this-address" id="co-applicant-years-at-this-address">
 					</div>
 
 					<div class="col-1-2">
 						<div class="radio-btn">
 							<label class="radio-label fsOptionLabel horizontal" for="co-applicant-rent">Rent</label>
-							<input class="fsFieldRow" type="radio" name="co-applicant-rent-or-own" id="co-applicant-rent" class="radio-opt">
+							<input class="fsFieldRow radio-opt" type="radio" name="co-applicant-rent-or-own" id="co-applicant-rent">
 
-							<label class="radio-label fsOptionLabel horizontal"for="co-applicant-own" >Own</label>
-							<input class="fsFieldRow" type="radio" name="co-applicant-rent-or-own" id="co-applicant-own" class="radio-opt">
+							<label class="radio-label fsOptionLabel horizontal" for="co-applicant-own" >Own</label>
+							<input class="fsFieldRow radio-opt" type="radio" name="co-applicant-rent-or-own" id="co-applicant-own">
 						</div>
 					</div>
 				</div>
@@ -315,7 +315,7 @@
 						<input class="fsFieldRow" type="text" name="co-applicant-employer" id="co-applicant-employer">
 					</div>
 					<div class="col-1-2">
-						<label class="fsLabelVertical fsLabel"for="co-applicant-supervisor">Supervisor</label>
+						<label class="fsLabelVertical fsLabel" for="co-applicant-supervisor">Supervisor</label>
 						<input class="fsFieldRow"  type="text" name="co-applicant-supervisor" id="co-applicant-supervisor">
 					</div>
 					<div class="col-1-2">
@@ -339,7 +339,7 @@
 			<div class="clear-fix"></div>
 				<div class="z-row">
 					<div class="col-1-2">
-				<label class="fsLabelVertical fsLabel" class="fsLabelVertical fsLabel" for="co-applicant-self-employed-business">If self-employed, name of Business</label>
+				<label class="fsLabelVertical fsLabel" for="co-applicant-self-employed-business">If self-employed, name of Business</label>
 				<input class="fsFieldRow" type="text" name="co-applicant-self-employed-business" id="co-applicant-self-employed-business">
 					</div>
 					<div class="col-1-2">
@@ -386,10 +386,10 @@
 						<label class="radio-label fsLabelVertical fsLabel" for="any-partners-in-boat">Any Partners in Boat?</label>
 
 						<label class="radio-label fsOptionLabel horizontal" for="yes" >Yes</label>
-						<input class="fsFieldRow" type="radio" name="partner-yes-or-no" id="yes" class="radio-opt">
+						<input class="fsFieldRow radio-opt" type="radio" name="partner-yes-or-no" id="yes">
 
 						<label class="radio-label fsOptionLabel horizontal" for="no">No</label>
-						<input class="fsFieldRow" type="radio" name="partner-yes-or-no" id="no" class="radio-opt">
+						<input class="fsFieldRow radio-opt" type="radio" name="partner-yes-or-no" id="no">
 					</div>
 				</div>
 <div class="clear-fix"></div>
@@ -406,13 +406,13 @@
 					<div class="col-1-2">
 						<div class="radio-btn">
 							<label class="radio-label fsOptionLabel horizontal" for="power-boat" >Power</label>
-							<input class="fsFieldRow" type="radio" name="vessel-type" id="power-boat" class="radio-opt">
+							<input class="fsFieldRow radio-opt" type="radio" name="vessel-type" id="power-boat">
 
 							<label class="radio-label fsOptionLabel horizontal" for="sail-boat" >Sail</label>
-							<input class="fsFieldRow" type="radio" name="vessel-type" id="sail-boat" class="radio-opt">
+							<input class="fsFieldRow radio-opt" type="radio" name="vessel-type" id="sail-boat">
 
 							<label  class="radio-label fsOptionLabel horizontal" for="multihull" >Multihull</label>
-							<input class="fsFieldRow" type="radio" name="vessel-type" id="multihull" class="radio-opt">
+							<input class="fsFieldRow radio-opt" type="radio" name="vessel-type" id="multihull">
 						</div>
 					</div>
 				</div>
@@ -429,13 +429,13 @@
 					<div class="col-1-3">
 						<div class="radio-btn">
 							<label class="radio-label fsOptionLabel horizontal" for="fiberglass">Fiberglass</label>
-							<input class="fsFieldRow" type="radio" name="vessel-material" id="fiberglass" class="radio-opt">
+							<input class="fsFieldRow radio-opt" type="radio" name="vessel-material" id="fiberglass">
 
 							<label class="radio-label fsOptionLabel horizontal" for="wood">Wood</label>
-							<input class="fsFieldRow" type="radio" name="vessel-material" id="wood" class="radio-opt">
+							<input class="fsFieldRow radio-opt" type="radio" name="vessel-material" id="wood">
 
 							<label class="radio-label fsOptionLabel horizontal" for="other">Other</label>
-							<input class="fsFieldRow" type="radio" name="vessel-material" id="other" class="radio-opt">
+							<input class="fsFieldRow radio-opt" type="radio" name="vessel-material" id="other">
 						</div>
 					</div>
 				</div>
@@ -489,10 +489,10 @@
 						<label class="fsLabelVertical fsLabel" for="recent-survey">Recent Survey</label>
 
 						<label class="radio-label fsOptionLabel horizontal" for="recent-survey-yes">Yes</label>
-						<input class="fsFieldRow" type="radio" name="recent-survey-yes-no" id="recent-survey-yes" class="radio-opt">
+						<input class="fsFieldRow radio-opt" type="radio" name="recent-survey-yes-no" id="recent-survey-yes">
 
 						<label class="radio-label fsOptionLabel horizontal" for="recent-survey-no">No</label>
-						<input class="fsFieldRow" type="radio" name="recent-survey-yes-no" id="recent-survey-no" class="radio-opt">
+						<input class="fsFieldRow radio-opt" type="radio" name="recent-survey-yes-no" id="recent-survey-no">
 					</div>
 				</div>
 				<div class="col-3-4">
@@ -548,10 +548,10 @@
 					<div class="radio-btn">
 						<label class="fsLabelVertical fsLabel" for="extended-stay">Extended Stay Privileges?</label>
 						<label class="radio-label fsOptionLabel horizontal" for="extended-stay-yes">Yes</label>
-						<input class="fsFieldRow" type="radio" name="extended-stay-yes-no" id="extended-stay-yes" class="radio-opt">
+						<input class="fsFieldRow radio-opt" type="radio" name="extended-stay-yes-no" id="extended-stay-yes">
 
 						<label class="radio-label fsOptionLabel horizontal" for="extended-stay-no">No</label>
-						<input class="fsFieldRow" type="radio" name="extended-stay-yes-no" id="extended-stay-no" class="radio-opt">
+						<input class="fsFieldRow radio-opt" type="radio" name="extended-stay-yes-no" id="extended-stay-no">
 					</div>
 				</div>
 				<div class="col-1-2">
@@ -559,7 +559,7 @@
 					<input class="fsFieldRow" type="number" name="if-extended-stay-yes" id="if-extended-stay-yes">
 				</div>
 				<div class="col-full">
-					<label  class="fsLabelVertical fsLabel"for="names-and-relationships">Names and relationship to you:</label>
+					<label  class="fsLabelVertical fsLabel" for="names-and-relationships">Names and relationship to you:</label>
 					<textarea class="fsFieldRow" name="names-and-relationships" id="names-and-relationships"></textarea>
 				</div>
 				<div>
@@ -567,10 +567,10 @@
 						<div class="radio-btn">
 							<label class="fsLabelVertical fsLabel" for="lived-on-boat-before">Have you ever lived abroad a boat before?</label>
 							<label class="radio-label fsOptionLabel horizontal" for="lived-on-boat-yes">Yes</label>
-							<input  class="fsFieldRow" type="radio" name="lived-on-boat-yes-no" id="yes-lived-on-boat" class="radio-opt">
+							<input  class="fsFieldRow radio-opt" type="radio" name="lived-on-boat-yes-no" id="yes-lived-on-boat">
 
 							<label class="radio-label fsOptionLabel horizontal" for="lived-on-boat-no">No</label>
-							<input  class="fsFieldRow" type="radio" name="lived-on-boat-yes-no" id="lived-on-boat-yes-no" class="radio-opt">
+							<input  class="fsFieldRow radio-opt" type="radio" name="lived-on-boat-yes-no" id="lived-on-boat-yes-no">
 						</div>
 					</div>
 
@@ -580,10 +580,10 @@
 					<div class="radio-btn">
 						<label class="fsLabelVertical fsLabel" for="pet-owner">Do you have Pets?</label>
 						<label class="radio-label fsOptionLabel horizontal" for="pet-owner-yes">Yes</label>
-						<input class="fsFieldRow" type="radio" name="pet-owner-yes-no" id="pet-owner-yes" class="radio-opt">
+						<input class="fsFieldRow radio-opt" type="radio" name="pet-owner-yes-no" id="pet-owner-yes">
 
 						<label class="radio-label fsOptionLabel horizontal" for="pet-owner-no">No</label>
-						<input class="fsFieldRow" type="radio" name="pet-owner-yes-no" id="pet-owner-no" class="radio-opt">
+						<input class="fsFieldRow radio-opt" type="radio" name="pet-owner-yes-no" id="pet-owner-no">
 					</div>
 				</div>
 				<div class="col-full">
@@ -623,7 +623,7 @@
 					<input class="fsFieldRow" type="file" name="insurance-upload" id="insurance-upload" accept=".pdf, .jpeg, .jpg, .gif, .png">
 					</div>
 					<div class="col-full">
-						<label  class="fsLabelVertical fsLabel"for="upload-photos">Recent Color Boat Photos</label>
+						<label  class="fsLabelVertical fsLabel" for="upload-photos">Recent Color Boat Photos</label>
 					<input class="fsFieldRow" type="file" name="upload-photos" id="upload-photos" accept=".pdf, .jpeg, .jpg, .gif, .png">
 					</div>
 					<div class="col-full">
@@ -645,7 +645,7 @@
 						<label class="fsFieldRow" for="bill-of-sale-copy">Bill of Sale from recent purchse of boat, if applicable</label>
 					</div>
 					<div class="col-full">
-						<input class="fsFieldRow" class="fsFieldRow" type="checkbox" name="proof-of-insurance" id="proof-of-insurance">
+						<input class="fsFieldRow" type="checkbox" name="proof-of-insurance" id="proof-of-insurance">
 						<label class="fsFieldRow" for="proof-of-insurance">Proof of Insurance</label>
 					</div>
 					<div class="col-full">
